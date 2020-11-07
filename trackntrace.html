@@ -2,14 +2,26 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Track 'N' Trace</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="trackntrace.js"></script>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="Title">
-        <h1>Track N Trace</h1>
+    <div class="container-fluid">
+        <div id="topBar" class="row">
+            <div id="Title" class="col-sm-8">
+                <h1>Track N Trace</h1>
+            </div>
+            <button id="resetButton" class="col-sm-4 btn">Reset</button>
+        </div>
+        <div id="playerCount">
+            <label for="numOfPlayers">Player Count: </label>
+            <input type="range" id="numOfPlayers" name="Number of players" min="2" max="10" value="5">
+        </div>
+        <div id="itemBucket" class="flex-container"></div>
     </div>
-    <button id="resetButton">Reset</button>
-    <div id="itemBucket"></div>
 </body>

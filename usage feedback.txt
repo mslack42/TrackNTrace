@@ -1,0 +1,5 @@
+Maybe the animations are a little slow?
+
+Might be better if exhausted cards are grayed-out rather than removed, so that animations don't cause unintended errors?
+
+Maybe additionally sort data in rows?

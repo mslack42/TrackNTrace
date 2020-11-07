@@ -1,0 +1,20 @@
+#resetButton {
+    background-color: blue;
+    color:white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    font-size: large;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+}
